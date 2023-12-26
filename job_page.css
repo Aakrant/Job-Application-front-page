@@ -1,0 +1,33 @@
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(225, 221, 215);
+}
+.form_control{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box{
+    width: 60%;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 2px 2px 2px black;
+    margin: 8px;
+}
+.control_div{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+.button{
+    width: 100%;
+    margin: 15px 0px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.container h2{
+    text-align: center;
+}
